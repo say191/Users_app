@@ -29,7 +29,7 @@
 
 - Склонировать репозиторий
 - Создать базу данных postgres
-- Создать файл .env и заполнить его по шаблону (.end.sample)
+- Создать файл .env и заполнить его по шаблону (.end.sample) (в переменную 'POSTGRES_HOST' записать значение 'db')
 - выполнить в терминале команду doker-compose build
 - выполнить в терминале команду doker-compose up
 
@@ -42,10 +42,10 @@
 - Активировать виртуальное окружение source env/bin/activate
 - Установить все зависимости pip install -r requirements.txt
 - Создать базу данных в postgres
-- Создать файл .env и заполнить его по шаблону (.end.sample)
+- Создать файл .env и заполнить его по шаблону (.end.sample) (в переменную 'POSTGRES_HOST' записать значение 'localhost')
 - Выполнить миграции python manage.py makemigrations python manage.py migrate
 - Запустить проект python manage.py runserver
 
 
 
-Технические требования Python 3.8+ Django 3+ DRF 3.10+ PostgreSQL 10+
+Технические требования Python 3.8+ Django 3+ DRF 3.10+ PostgreSQL 10+, Docker
